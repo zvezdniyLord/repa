@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToroToro</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navpanel">
+            <div class="navpanel__flex">
+                <div class="flex__hidden">
+                    <div class="category">
+                        <a href="" class="category__link cat1">Роллы</a>
+                        <a href="" class="category__link cat2">Темпура</a>
+                        <a href="" class="category__link cat3">Запеченые роллы</a>
+                        <a href="" class="category__link cat4">Торо-доги</a>
+                        <a href="" class="category__link cat5">Горячие блюда</a>
+                        <a href="" class="category__link cat6">Супы</a>
+                        <a href="" class="category__link cat7">Мидии</a>
+                        <a href="" class="category__link cat8">Сеты</a>
+                        <a href="" class="category__link cat9">Напитки</a>
+                        <a href="" class="category__link cat10">Добавки</a>
+                    </div>
+                </div>
+                <div class="flex__left">
+                    <div class="left__contacts">
+                        <div class="contacts__text">
+                            <div class="contacts">КОНТАКТЫ</div>
+                            <div class="contacts__geo">
+                                <img loading="lazy" srcset="..." class="geo" />
+                                <div class=".contacts__city">Северск</div>
+                            </div>
+                        </div>
+                        <div class="work__time">
+                            <div class="time__text">Режим работы</div>
+                            <div class="work__days">
+                                пн-чт, вс с 11:00 до 22:30
+                                <br />
+                                пт-сб с 11:00 до 23:30
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex__middle">
+                    <div class="logos">
+                        <img loading="lazy" srcset="..." class="logo1" />
+                        <img loading="lazy" srcset="..." class="logo2" />
+                    </div>
+                </div>
+                <div class="flex__right">
+                    <div class="cart">
+                        <img loading="lazy" srcset="..." class="cart__image" />
+                        <div class="summory">0 ₽</div>
+                        <button class="offer">оформить заказ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="slider__position">
+            <button class="prevbtn slidebtns" id="prev">
+                <</button>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide red">Слайд 1</div>
+                            <div class="slide green">Слайд 2</div>
+                            <div class="slide black">Слайд 3</div>
+                        </div>
+                        <div class="nav-buttons">
+                            <button class="nav-button" onclick="goToSlide(0)">
+                                <li class="sliderbtns"></li>
+                            </button>
+                            <button class="nav-button" onclick="goToSlide(1)">
+                                <li class="sliderbtns"></li>
+                            </button>
+                            <button class="nav-button" onclick="goToSlide(2)">
+                                <li class="sliderbtns"></li>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="nextbtn slidebtns" id="next">></button>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="div">
+        <div class="div-2">ЗАВТРАКИ</div>
+        <div class="div-3">
+            <div class="div-4">
+                <div class="column">
+                    <div class="div-5">
+                        <div class="div-6">
+                            <div class="div-7">
+                                <div class="column">
+                                    <img loading="lazy" srcset="..." class="img" />
+                                </div>
+                                <div class="column-2">
+                                    <div class="div-8">
+                                        <div class="div-9">Омлет с креветками</div>
+                                        <div class="div-10">
+                                            Обжаренные в устричном соусе овощи, грибы
+                                            <br />
+                                            шиитаке, молодые ростки фасоли маш. Подаётся в
+                                            <br />
+                                            нежном омлете с хрустящими креветками, зеленым
+                                            <br />
+                                            луком и кунжутом.
+                                        </div>
+                                        <div class="div-11">
+                                            Ккал: 277, белки: 19 г., жиры: 15 г., углеводы: 15 г.
+                                        </div>
+                                        <div class="div-12">
+                                            <div class="div-13">398 ₽</div>
+                                            <div class="div-14">200 г.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-15">в корзину</div>
+                    </div>
+                </div>
+                <div class="column-3">
+                    <div class="div-16">
+                        <div class="div-17">
+                            <div class="div-18">
+                                <div class="column">
+                                    <img loading="lazy" srcset="..." class="img" />
+                                </div>
+                                <div class="column-4">
+                                    <div class="div-19">
+                                        <div class="div-20">Омлет с креветками</div>
+                                        <div class="div-21">
+                                            Обжаренные в устричном соусе овощи, грибы
+                                            <br />
+                                            шиитаке, молодые ростки фасоли маш. Подаётся в
+                                            <br />
+                                            нежном омлете с хрустящими креветками, зеленым
+                                            <br />
+                                            луком и кунжутом.
+                                        </div>
+                                        <div class="div-22">
+                                            Ккал: 277, белки: 19 г., жиры: 15 г., углеводы: 15 г.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-23">в корзину</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
